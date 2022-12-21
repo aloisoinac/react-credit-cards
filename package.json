@@ -1,17 +1,11 @@
 {
-  "name": "react-credit-cards",
+  "name": "react-cc-cards",
   "version": "0.8.3",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
   "contributors": [
-    {
-      "name": "Cassio Cardoso",
-      "email": "cassio.cardoso@amaro.com"
-    },
-    {
-      "name": "Gil Barbara",
-      "email": "gil.barbara@amaro.com"
-    }
+    "Cassio Cardoso <cassio.cardoso@amaro.com>",
+    "Gil Barbara <gil.barbara@amaro.com>"
   ],
   "repository": {
     "type": "git",
@@ -36,7 +30,7 @@
     "payment"
   ],
   "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0 || ^17.0.0",
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
     "prop-types": "^15.7.2"
   },
   "dependencies": {
@@ -137,5 +131,9 @@
       "post-merge": "repo-tools install-packages",
       "pre-commit": "repo-tools check-remote && npm run validate"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
