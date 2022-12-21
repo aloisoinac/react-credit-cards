@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarofashion/react-credit-cards.git"
+    "url": "git+https://github.com/aloisoinac/react-credit-cards.git"
   },
   "bugs": {
-    "url": "https://github.com/amarofashion/react-credit-cards/issues"
+    "url": "https://github.com/aloisoinac/react-credit-cards/issues"
   },
   "homepage": "https://github.com/amarofashion/react-credit-cards#readme",
   "license": "MIT",
